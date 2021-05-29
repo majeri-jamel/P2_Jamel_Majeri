@@ -1,0 +1,60 @@
+@font-face {
+  font-family: "Raleway";
+  src: url("./Raleway/Raleway-Italic-VariableFont_wght.ttf");
+}
+body {
+  font-family: "Raleway";
+  margin: 0;
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  text-decoration: none;
+}
+li {
+  display: inline;
+  margin-right: 15px;
+}
+input {
+  border-radius: 10px;
+  width: 200px;
+  height: 35px;
+  border: 2px solid black;
+  font-weight: bold;
+}
+button {
+  width: 20%;
+  height: 35px;
+  background-color: blue;
+  margin-top: 2rem;
+  flex-wrap: wrap;
+}
+div ul img {
+  width: 25px;
+  height: 18px;
+  border: 0px solid black;
+  border-radius: 35px;
+  background-color: rgb(30, 211, 196);
+}
+.Economique {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.Familial {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.Romantique {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+.Animaux {
+  border: 2px solid black;
+  border-radius: 25px;
+}
+div li {
+  display: inline;
+  margin-right: 15px;
+}

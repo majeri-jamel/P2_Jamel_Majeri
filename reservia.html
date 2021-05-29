@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link type="text/css" href="reservia.css" rel="stylesheet" />
+    <title>Projet2</title>
+  </head>
+  <!-- corps de ma page -->
+  <body>
+    <header>
+      <div class="container">
+        <div id="logo">
+          <img src="images/logo/Reservia.svg" alt="Logo de Reservia" />
+        </div>
+        <div>
+          <nav>
+            <ul>
+              <li><a href="#">Hébergement</a></li>
+              <li><a href="#">Activités</a></li>
+              <li><a href="#">S'inscrire</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <h2>Trouvez un Hébergement pour les vacances de rève</h1>
+      <p>En plein centre ville ou en pleine nature</p>
+      <form method="POST" action="traitement.php">
+        <i class="fontawesome/svgs/solid/map-marker.svg"></i>
+        <input
+          type="text"
+          placeholder="Marseille, France"
+          class="barre de recherche"/>
+         <button class="button-research" id="button-research" >Rechercher</button>
+        </form>
+      <!-- ici les filtres-->
+      <div class="container">
+       <h3>Filtres</h3>
+       <div>
+        <ul>
+          <div class="Economique">
+          <img src="fontawesome/svgs/solid/money-bill-wave.svg">
+          <li>Economique</li>
+          </div>
+          <div class="Familial">
+          <img src="fontawesome/svgs/solid/child.svg">
+          <li>Familial</li>
+          </div>
+          <div class="Romantique">
+          <img src="fontawesome/svgs/solid/heart.svg">
+          <li>Romantique</li>
+          </div>
+          <div class="Animaux autorisés">
+          <img src="fontawesome/svgs/solid/dog.svg">
+          <li>Animaux autorisés</li>
+          </div>
+        </ul>
+        </div>
+      </div>
+        <p>Plus de 500 logements sont disponibles dans cette ville</p>
+      </div>
+    </header>
+    <!-- ici la 1er section-->
+    <section>
+      <div class="container2">
+        <article>
+          <h3>Hébergements à Marseille</h3>
+              <div>Auberge La Cannebière</div>
+              <div>Hotel du port</div>
+              <div>Hotel Les mouettes</div>
+              <div>Hotel de la mer</div>
+              <div>Auberge Le Panier</div>
+              <div>Hotel chez Amina</div>
+        </article>
+        <article>
+          <h3>Les plus populaires</h3>
+              <div class="logo">logo</div>
+              <div>Hotel Le matin du soleil</div>
+              <div>Au coeur de l'eau Chambres d'Hotes</div>
+              <div>Hotel Tout bleu et Blanc</div>
+        </article>
+      </div>
+    </section>
+  </body>
+</html>
