@@ -224,7 +224,7 @@ h3 {
   color: #0065fc;
 }
 .star_grey {
-  color: #f2f2f2;
+  color: rgba(128, 128, 128, 0.993);
 }
 .info {
   width: 235px;
